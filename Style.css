@@ -1,0 +1,61 @@
+
+@media only screen and (min-width: 0px) {
+    body {
+        background-color: maroon;
+    }
+
+    #Small {
+        background-color: white;
+        color: black;
+        padding: 20px;
+    }
+
+    #Medium {
+        display: none;
+    }
+
+    #Large {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    body {
+        background-color: green;
+    }
+
+    #Small {
+        display: none;
+    }
+
+    #Medium {
+        background-color: white;
+        color: black;
+        padding: 20px;
+    }
+
+    #Large {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: blue;
+    }
+
+    #Small {
+        display: none;
+    }
+
+    #Medium {
+        display: none;
+    }
+
+    #Large {
+        background-color: white;
+        color: black;
+        padding: 20px;
+    }
+}
+
