@@ -1,21 +1,72 @@
+h1 {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
 
 
 @media only screen and (max-width: 480px) {
     body {
         background-color: maroon;
     }
-    #Small {
+
+    .container {
+        flex-direction: column;
+    }
+
+    #SmallA {
         background-color: white;
         color: black;
+        font-size: small;
+        padding: 20px;
+    
+    }
+
+    #SmallB {
+        background-color: white;
+        color: black;
+        font-size: small;
+        padding: 20px;
+    
+    }
+
+    #SmallC {
+        background-color: white;
+        color: black;
+        font-size: small;
         padding: 20px;
     
     }
     
-    #Medium {
+    #MediumA {
         display: none;
     }
     
-    #Large {
+    #MediumB {
+        display: none;
+    }
+    
+    #MediumC {
+        display: none;
+    }
+    
+
+
+
+    #LargeA {
+        display: none;
+    }
+    
+    #LargeB {
+        display: none;
+    }
+    
+    #LargeC {
         display: none;
     }
 }
@@ -24,18 +75,61 @@
     body {
         background-color: green;
     }
-    #Small {
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #SmallA {
+        display: none;
+    
+    }
+
+    #SmallB {
+        display: none;
+    
+    }
+
+    #SmallC {
         display: none;
     
     }
     
-    #Medium {
+    #MediumA {
         background-color: white;
         color: black;
+        font-size: medium;
         padding: 20px;
+        width: 60%;
+        flex-wrap: wrap;
+    }
+    #MediumB {
+        background-color: white;
+        color: black;
+        font-size: medium;
+        padding: 20px;
+        width: 30%;
+        flex-wrap: wrap;
+    }
+    #MediumC {
+        background-color: white;
+        color: black;
+        font-size: medium;
+        padding: 20px;
+        width: 100%;
+        flex-wrap: wrap;
     }
     
-    #Large {
+    #LargeA {
+        display: none;
+    }
+    
+    #LargeB {
+        display: none;
+    }
+    
+    #LargeC {
         display: none;
     }
 }
@@ -44,18 +138,66 @@
     body {
         background-color: blue;
     }
-    #Small {
+
+    .container {
+        flex-direction: row;
+        flex-flow: nowrap;
+        
+    }
+
+
+
+    #SmallA {
         display: none;
+    }
+
+    #SmallB {
+        display: none;
+    }
+
+    #SmallC {
+        display: none;
+    }
+
+
+
     
+    #MediumA {
+        display: none;
     }
     
-    #Medium {
+    #MediumB {
         display: none;
     }
     
-    #Large {
+    #MediumC {
+        display: none;
+    }
+    
+
+
+    #LargeA {
+        width: 30%;
         background-color: white;
         color: black;
-        padding: 20px;
+        font-size: large;
+        padding: 10px;
+
+    }
+    
+    #LargeB {
+        width: 30%;
+        background-color: white;
+        color: black;
+        font-size: large;
+        padding: 10px;
+    }
+    
+    #LargeC {
+        width: 30%;
+        background-color: white;
+        color: black;
+        font-size: large;
+        padding: 10px;
     }
 }
